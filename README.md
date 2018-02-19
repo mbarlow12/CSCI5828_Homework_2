@@ -21,4 +21,7 @@ git add . && git commit 0m "commit 4"
 
 git merge master
 [edit README.md, fix merge conflict]
-git add . && git commit 0m "commit 5"
+git add . && git commit -m "commit 5"
+
+[edit README.md]
+git add . && git commit -m "commit 6"
