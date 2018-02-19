@@ -11,3 +11,6 @@ git checkout [sha for commit 0]
 git checkout -b bug-fix
 [edit README.md]
 git add . && git commit -m "commit 3"
+
+[edit README.md]
+git add . && git commit 0m "commit 4"
