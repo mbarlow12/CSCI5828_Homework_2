@@ -41,3 +41,6 @@ git checkout bug-fix
 git merge bug-fix-experimental
 [edit README.md, fix merge conflict]
 git add . && git commit -m "commit 11"
+
+[edit README.md]
+git add . && git commit -m "commit 12"
