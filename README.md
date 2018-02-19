@@ -19,3 +19,6 @@ git checkout [sha for commit 4]
 git checkout -b bug-fix-experimental
 [edit README.md]
 git add . && git commit -m "commit 7"
+
+[edit README>md]
+git add . && git commit -m "commit 8"
