@@ -20,5 +20,8 @@ git checkout -b bug-fix-experimental
 [edit README.md]
 git add . && git commit -m "commit 7"
 
-[edit README>md]
+[edit README.md]
 git add . && git commit -m "commit 8"
+
+[edit README.md]
+git add . && git commit -m "commit 9"
