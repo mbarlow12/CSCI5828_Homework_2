@@ -3,55 +3,58 @@
 
 ***
 
-[create README.md and edit]
-git init
-git add . && git commit -m "commit 0"
+[create README.md and edit]<br>
+git init<br>
+git add . && git commit -m "commit 0"<br>
 
-[edit README.md]
-git add .&& git commit -m "commit 1"
+[edit README.md]<br>
+git add .&& git commit -m "commit 1"<br>
 
-[edit README.md]
-git add . && git commit -m "commit 2"
+[edit README.md]<br>
+git add . && git commit -m "commit 2"<br>
 
-git checkout [sha for commit 0]
-git checkout -b bug-fix
-[edit README.md]
-git add . && git commit -m "commit 3"
+git checkout [sha for commit 0]<br>
+git checkout -b bug-fix<br>
+[edit README.md]<br>
+git add . && git commit -m "commit 3"<br>
 
-[edit README.md]
-git add . && git commit -m "commit 4"
+[edit README.md]<br>
+git add . && git commit -m "commit 4"<br>
 
-git merge master
-[edit README.md, fix merge conflict]
-git add . && git commit -m "commit 5"
+git merge master<br>
+[edit README.md, fix merge conflict]<br>
+git add . && git commit -m "commit 5"<br>
 
-[edit README.md]
-git add . && git commit -m "commit 6"
+[edit README.md]<br>
+git add . && git commit -m "commit 6"<br>
 
-git checkout [sha for commit 4]
-git checkout -b bug-fix-experimental
-[edit README.md]
-git add . && git commit -m "commit 7"
+git checkout [sha for commit 4]<br>
+git checkout -b bug-fix-experimental<br>
+[edit README.md]<br>
+git add . && git commit -m "commit 7"<br>
 
-[edit README.md]
-git add . && git commit -m "commit 8"
+[edit README.md]<br>
+git add . && git commit -m "commit 8"<br>
 
-[edit README.md]
-git add . && git commit -m "commit 9"
+[edit README.md]<br>
+git add . && git commit -m "commit 9"<br>
 
-git checkout master
-[edit README.md]
-git add . && git commit -m "commit 10"
+git checkout master<br>
+[edit README.md]<br>
+git add . && git commit -m "commit 10"<br>
 
-git checkout bug-fix
-git merge bug-fix-experimental
-[edit README.md, fix merge conflict]
-git add . && git commit -m "commit 11"
+git checkout bug-fix<br>
+git merge bug-fix-experimental<br>
+[edit README.md, fix merge conflict]<br>
+git add . && git commit -m "commit 11"<br>
 
-[edit README.md]
-git add . && git commit -m "commit 12"
+[edit README.md]<br>
+git add . && git commit -m "commit 12"<br>
 
-git checkout master
-git merge bug-fix
-[edit README.md, fix merge conflict]
-git add . && git commit -m "commit 13"
+git checkout master<br>
+git merge bug-fix<br>
+[edit README.md, fix merge conflict]<br>
+git add . && git commit -m "commit 13"<br>
+
+[edit README.md]<br>
+git add . && git commit -m "add br tags, add commit graph png, commit 14"<br>
