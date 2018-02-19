@@ -6,3 +6,8 @@
 [create README.md and edit]
 git init
 git add . && git commit -m "commit 0"
+
+git checkout [sha for commit 0]
+git checkout -b bug-fix
+[edit README.md]
+git add . && git commit -m "commit 3"
