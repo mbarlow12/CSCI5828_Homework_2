@@ -6,6 +6,10 @@
 [create README.md and edit]
 git init
 git add . && git commit -m "commit 0"
+[edit README.md]
+git add .&& git commit -m "commit 1"
+[edit README.md]
+git add . && git commit -m "commit 2"
 
 git checkout [sha for commit 0]
 git checkout -b bug-fix
@@ -14,3 +18,7 @@ git add . && git commit -m "commit 3"
 
 [edit README.md]
 git add . && git commit 0m "commit 4"
+
+git merge master
+[edit README.md, fix merge conflict]
+git add . && git commit 0m "commit 5"
