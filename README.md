@@ -6,7 +6,13 @@
 [create README.md and edit]
 git init
 git add . && git commit -m "commit 0"
+
 [edit README.md]
 git add .&& git commit -m "commit 1"
+
 [edit README.md]
 git add . && git commit -m "commit 2"
+
+git checkout master
+[edit README.md]
+git add . && git commit -m "commit 10"
