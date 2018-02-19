@@ -17,7 +17,7 @@ git checkout -b bug-fix
 git add . && git commit -m "commit 3"
 
 [edit README.md]
-git add . && git commit 0m "commit 4"
+git add . && git commit -m "commit 4"
 
 git merge master
 [edit README.md, fix merge conflict]
@@ -25,3 +25,19 @@ git add . && git commit -m "commit 5"
 
 [edit README.md]
 git add . && git commit -m "commit 6"
+
+git checkout [sha for commit 4]
+git checkout -b bug-fix-experimental
+[edit README.md]
+git add . && git commit -m "commit 7"
+
+[edit README.md]
+git add . && git commit -m "commit 8"
+
+[edit README.md]
+git add . && git commit -m "commit 9"
+
+git checkout bug-fix
+git merge bug-fix-experimental
+[edit README.md, fix merge conflict]
+git add . && git commit -m "commit 11"
